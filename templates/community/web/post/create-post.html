@@ -291,7 +291,7 @@
                       <div class="required-info-inner2">
                         <label class="selection">
                           <input type="checkbox"
-                                 disabled
+                                 disabled=Ture
                                  class="ai-checkbox"
                                  name=""
                                  maxlength="10"
@@ -301,7 +301,7 @@
                           AI추천태그
                         </div>
                         <input type="hidden" id="post-tags" name="post-tags" value=""> 
-                        <img class="loading"  alt="Animated GIF" src="{% static 'public/web/images/common/loading.gif' %}" 
+                        <img class="loading"  alt="Animated GIF" src="{% static 'post/images/loading.gif' %}" 
                              style="display: none"/>
                         <div class="required-info-item-wrap">
                           <div class="required-info-item">
@@ -309,7 +309,7 @@
                               <span class="required-info-item-box">
                                 
                                 <div class="tag-input-box">
-                                  <input disabled
+                                  <input disabled=Ture
                                          class="tag-input2"
                                          placeholder="*태그를 자동 작성합니다. 제목과 내용 작성 후 사용 가능"
                                          name="post-tags"
