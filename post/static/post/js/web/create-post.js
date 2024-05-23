@@ -288,6 +288,7 @@ const showtags = (tags) => {
     tagFlag = innerTag.length >= 0;
     const aitags = document.querySelectorAll(".tag");
     aitags.forEach((item) => {
+
         const canceltag = item.querySelector(".tag-cancel-btn");
         canceltag.addEventListener("click", () => {
             item.remove();
